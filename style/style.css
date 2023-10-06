@@ -27,17 +27,20 @@ a {
 }
 
 .panel {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    border-radius: 50px;
-    color: 	#FF6347	;
-    cursor: pointer;
-    flex: 0.5;
-    margin: 10px;
-    position: relative;
-    transition: flex 0.9s ease-in;
+  width:100%;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background-size: cover;
+  background-position:0 center center;
+  background-repeat: no-repeat;
+  height: 80vh;  
+  color: #FF6347;    
+  cursor: pointer;
+  flex: 0.5;  
+  position: relative;
+  transition: flex 0.7s ease-in;
+  -webkit-transition: all 700ms ease-in;
 }
 
 .panel h3 {
@@ -51,7 +54,7 @@ a {
     }
 
     .panel.active {
-         flex: 0.9;
+         flex: 6;
     }
 
     .panel.active h3{
